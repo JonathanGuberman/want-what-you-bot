@@ -11,25 +11,28 @@ class CategorizedWords:
 
     for word in wordlist:
       stress_pattern = syllables(word)
-      self.syllable_map[syllables(word)].append(word)
+      if stress_pattern:
+        self.syllable_map[syllables(word)].append(word)
 
-      if wn.synsets(word, pos=wn.NOUN):
-        if stress_pattern == (1,):
-          self.nouns[0].append(word)
-        elif stress_pattern == (1, 0) or stress_pattern == (1,2):
-          self.nouns[1].append(word)
-        elif stress_pattern == (0, 1, 0):
-          self.nouns[2].append(word)
-      elif wn.synsets(word, pos=wn.ADJ):
-        if stress_pattern == (1,):
-          self.adjectives.append(word)
+        if wn.synsets(word, pos=wn.NOUN):
+          if stress_pattern == (1,):
+            self.nouns[0].append(word)
+          elif stress_pattern == (1, 0) or stress_pattern == (1,2):
+            self.nouns[1].append(word)
+          elif stress_pattern == (0, 1, 0):
+            self.nouns[2].append(word)
+        elif wn.synsets(word, pos=wn.ADJ):
+          if stress_pattern == (1,):
+            self.adjectives.append(word)
 
 
 CMUDICT = cmu.dict()
 
 def syllables(word):
   # return tuple(int(s[-1]) for s in cmudict[word.lower()] if s[-1].isdigit())
-  return tuple(int(s[-1]) for s in CMUDICT[word.lower()][0] if s[-1].isdigit())
+  if word.lower() in CMUDICT:
+    return tuple(int(s[-1]) for s in CMUDICT[word.lower()][0] if s[-1].isdigit())
+  return None
 
 def random_lyrics(categorized_words):
   lyrics = f'''
@@ -48,4 +51,7 @@ def random_lyrics(categorized_words):
   return lyrics
 
 if __name__ == "__main__":
-  print(random_lyrics(CategorizedWords(cmu.words())))
+  with open("20k.txt") as wordfile:
+    wordlist = [word.strip() for word in wordfile]
+
+  print(random_lyrics(CategorizedWords(wordlist)))
