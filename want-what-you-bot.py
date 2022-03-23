@@ -31,8 +31,7 @@ def syllables(word):
   # return tuple(int(s[-1]) for s in cmudict[word.lower()] if s[-1].isdigit())
   return tuple(int(s[-1]) for s in CMUDICT[word.lower()][0] if s[-1].isdigit())
 
-def random_lyrics():
-  categorized_words = CategorizedWords(cmu.words())
+def random_lyrics(categorized_words):
   lyrics = f'''
   I want your {random.choice(categorized_words.nouns[1])}
   I want your {random.choice(categorized_words.nouns[1])}
@@ -48,4 +47,5 @@ def random_lyrics():
   '''
   return lyrics
 
-print(random_lyrics())
+if __name__ == "__main__":
+  print(random_lyrics(CategorizedWords(cmu.words())))
