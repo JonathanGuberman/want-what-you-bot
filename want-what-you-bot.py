@@ -1,43 +1,9 @@
-from collections import defaultdict
 import random
 
-import nltk
-from nltk.corpus import cmudict as cmu, wordnet as wn
-
-# nltk.download('cmudict')
-# nltk.download('wordnet')
-# nltk.download('omw-1.4')
-
 class CategorizedWords:
-  def __init__(self, wordlist):
-    self.syllable_map = defaultdict(list)
-    self.nouns = [[], [], []]
-    self.adjectives = []
-
-    for word in wordlist:
-      stress_pattern = syllables(word)
-      if stress_pattern:
-        self.syllable_map[syllables(word)].append(word)
-
-        if wn.synsets(word, pos=wn.NOUN):
-          if stress_pattern == (1,):
-            self.nouns[0].append(word)
-          elif stress_pattern == (1, 0) or stress_pattern == (1,2):
-            self.nouns[1].append(word)
-          elif stress_pattern == (0, 1, 0):
-            self.nouns[2].append(word)
-        elif wn.synsets(word, pos=wn.ADJ):
-          if stress_pattern == (1,):
-            self.adjectives.append(word)
-
-
-CMUDICT = cmu.dict()
-
-def syllables(word):
-  # return tuple(int(s[-1]) for s in cmudict[word.lower()] if s[-1].isdigit())
-  if word.lower() in CMUDICT:
-    return tuple(int(s[-1]) for s in CMUDICT[word.lower()][0] if s[-1].isdigit())
-  return None
+  def __init__(self, nouns, adjectives):
+    self.nouns = nouns
+    self.adjectives = adjectives
 
 def random_lyrics(categorized_words):
   lyrics = f'''
@@ -55,8 +21,14 @@ def random_lyrics(categorized_words):
   '''
   return lyrics
 
-if __name__ == "__main__":
-  with open("20k.txt") as wordfile:
-    wordlist = [word.strip() for word in wordfile]
+def file_to_list(filename):
+  with open(filename) as fp:
+    return [line.strip() for line in fp]
 
-  print(random_lyrics(CategorizedWords(wordlist)))
+if __name__ == "__main__":
+  ones = file_to_list("./wordlists/NN-1.txt")
+  twos = file_to_list("./wordlists/NN-2.txt")
+  threes = file_to_list("./wordlists/NN-3.txt")
+  adj = file_to_list("./wordlists/JJ-1.txt")
+
+  print(random_lyrics(CategorizedWords([ones, twos, threes], adj)))
