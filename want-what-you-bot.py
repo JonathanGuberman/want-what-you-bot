@@ -1,7 +1,12 @@
 from collections import defaultdict
 import random
 
+import nltk
 from nltk.corpus import cmudict as cmu, wordnet as wn
+
+# nltk.download('cmudict')
+# nltk.download('wordnet')
+# nltk.download('omw-1.4')
 
 class CategorizedWords:
   def __init__(self, wordlist):
