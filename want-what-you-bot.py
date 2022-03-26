@@ -16,44 +16,129 @@ class WordChoices:
 
 
 def random_lyrics(words):
-  lyrics = f'''
-  I want your {words.trocheenoun1}
-  I want your {words.trocheenoun2}
-  I want what you got, I say it a lot
-  I want your {words.adj} {words.mononoun1}
-  Want your {words.amphinoun1}
-  I want what you got, I say it a lot
-  Oh my god, oh my god, oh my god, oh my god
-  I want what you got, I say it a lot
-  I want your {words.mononoun2}, I
-  Want your {words.amphinoun2}
-  I want what you got, I say it a lot
-  '''
+  lyrics = (
+    f'I want your {words.trocheenoun1}\n'
+    f'I want your {words.trocheenoun2}\n'
+    f'I want what you got, I say it a lot\n'
+    f'I want your {words.adj} {words.mononoun1}\n'
+    f'Want your {words.amphinoun1}\n'
+    f'I want what you got, I say it a lot\n'
+    f'Oh my god ×4\n'
+    f'I want what you got, I say it a lot\n'
+    f'I want your {words.mononoun2}, I\n'
+    f'Want your {words.amphinoun2}\n'
+    f'I want what you got, I say it a lot'
+  )
   return lyrics
+
+def note(word, note, duration):
+  return f'<PITCH NOTE="{note}"><DURATION BEATS="{duration}">{word}</DURATION></PITCH>'
+
+def rest(duration):
+  return f'<REST BEATS="{duration}"></REST>'
 
 def singing_xml(words):
   xml = f'''
-  <!DOCTYPE SINGING PUBLIC "-//SINGING//DTD SINGING mark up//EN"
-      "Singing.v0_1.dtd">
+<!DOCTYPE SINGING PUBLIC "-//SINGING//DTD SINGING mark up//EN"
+"Singing.v0_1.dtd">
 <SINGING BPM="112">
-<PITCH NOTE="A4"><DURATION BEATS="1.0">{get_syllables(words.trocheenoun1)[0]}</DURATION></PITCH>
-<PITCH NOTE="A4"><DURATION BEATS="1.0">{get_syllables(words.trocheenoun1)[1]}</DURATION></PITCH>
-<REST BEATS="1.0"></REST>
-<PITCH NOTE="A4"><DURATION BEATS="1.0">{get_syllables(words.trocheenoun2)[0]}</DURATION></PITCH>
-<PITCH NOTE="A4"><DURATION BEATS="1.0">{get_syllables(words.trocheenoun2)[1]}</DURATION></PITCH>
-<REST BEATS="1.0"></REST>
-<PITCH NOTE="A4"><DURATION BEATS="1.0">{words.adj}</DURATION></PITCH>
-<PITCH NOTE="A4"><DURATION BEATS="1.0">{words.mononoun1}</DURATION></PITCH>
-<REST BEATS="1.0"></REST>
-<PITCH NOTE="A4"><DURATION BEATS="0.5">{get_syllables(words.amphinoun1)[0]}</DURATION></PITCH>
-<PITCH NOTE="A4"><DURATION BEATS="1.0">{get_syllables(words.amphinoun1)[1]}</DURATION></PITCH>
-<PITCH NOTE="A4"><DURATION BEATS="0.5">{get_syllables(words.amphinoun1)[2]}</DURATION></PITCH>
-<REST BEATS="1.0"></REST>
-<PITCH NOTE="A4"><DURATION BEATS="1.0">{words.mononoun2}</DURATION></PITCH>
-<REST BEATS="1.0"></REST>
-<PITCH NOTE="A4"><DURATION BEATS="0.5">{get_syllables(words.amphinoun2)[0]}</DURATION></PITCH>
-<PITCH NOTE="A4"><DURATION BEATS="1.0">{get_syllables(words.amphinoun2)[1]}</DURATION></PITCH>
-<PITCH NOTE="A4"><DURATION BEATS="0.5">{get_syllables(words.amphinoun2)[2]}</DURATION></PITCH>
+{rest(10.15)}
+{note("I", 'B4', 0.5)}
+{note("want", 'B4', 0.5)}
+{note("your", 'B4', 0.5)}
+{note(get_syllables(words.trocheenoun1)[0], 'B4', 1.0)}
+{note(get_syllables(words.trocheenoun1)[1], 'E4', 1.0)}
+{rest(1.0)}
+{note("I", 'B4', 1.0)}
+{note("want", 'B4', 0.5)}
+{note("your", 'B4', 0.5)}
+{note(get_syllables(words.trocheenoun2)[0], 'B4', 1.0)}
+{note(get_syllables(words.trocheenoun2)[1], 'E4', 1.0)}
+{rest(2.0)}
+{note("I", 'A4', 1.0)}
+{note("want", 'E4', 0.5)}
+{note("what", 'D4', 0.5)}
+{note("you", 'C#4', 0.5)}
+{note("got", 'D4', 1.0)}
+{rest(1.5)}
+{note("I", 'D4', 0.5)}
+{note("say", 'D4', 0.5)}
+{note("it", 'C4', 0.5)}
+{note("uh", 'B3', 0.5)}
+{note("lot", 'A3', 1.0)}
+{rest(0.5)}
+{note("I", 'B4', 1.0)}
+{note("want", 'B4', 0.5)}
+{note("your", 'B4', 0.5)}
+{note(words.adj, 'B4', 1.0)}
+{note(words.mononoun1, 'E4', 1.0)}
+{rest(1.0)}
+{note("want", 'B4', 0.5)}
+{note("your", 'B4', 0.5)}
+{note(get_syllables(words.amphinoun1)[0], 'B4', 0.5)}
+{note(get_syllables(words.amphinoun1)[1], 'B4', 1.0)}
+{note(get_syllables(words.amphinoun1)[2], 'E4', 1.0)}
+{rest(2.5)}
+{note("I", 'A4', 0.5)}
+{note("want", 'E4', 0.5)}
+{note("what", 'D4', 0.5)}
+{note("you", 'C#4', 0.5)}
+{note("got", 'D4', 1.0)}
+{rest(2.0)}
+{note("I", 'D4', 0.5)}
+{note("say", 'D4', 0.5)}
+{note("it", 'C4', 0.5)}
+{note("uh", 'B3', 0.5)}
+{note("lot", 'A3', 1.0)}
+{rest(1.0)}
+<PITCH NOTE="A4"><DURATION BEATS="0.5">oh</DURATION></PITCH>
+<PITCH NOTE="A4"><DURATION BEATS="0.5">my</DURATION></PITCH>
+<PITCH NOTE="A4"><DURATION BEATS="1.5">god</DURATION></PITCH>
+<PITCH NOTE="G4"><DURATION BEATS="0.5">oh</DURATION></PITCH>
+<PITCH NOTE="G4"><DURATION BEATS="0.5">my</DURATION></PITCH>
+<PITCH NOTE="G4"><DURATION BEATS="1.5">god</DURATION></PITCH>
+<PITCH NOTE="D4"><DURATION BEATS="0.5">oh</DURATION></PITCH>
+<PITCH NOTE="D4"><DURATION BEATS="0.5">my</DURATION></PITCH>
+<PITCH NOTE="D4"><DURATION BEATS="0.5">god</DURATION></PITCH>
+<PITCH NOTE="D4"><DURATION BEATS="1.0">oh</DURATION></PITCH>
+<PITCH NOTE="F4"><DURATION BEATS="0.5">my</DURATION></PITCH>
+<PITCH NOTE="E4"><DURATION BEATS="1.5">god</DURATION></PITCH>
+{rest(1.0)}
+{note("I", 'A4', 0.5)}
+{note("want", 'E4', 0.5)}
+{note("what", 'D4', 0.5)}
+{note("you", 'C#4', 0.5)}
+{note("got", 'D4', 1.5)}
+{rest(1.0)}
+{note("I", 'D4', 0.5)}
+{note("say", 'D4', 0.5)}
+{note("it", 'C4', 0.5)}
+{note("uh", 'B3', 0.5)}
+{note("lot", 'A3', 1.0)}
+{rest(1.0)}
+{note("I", 'B4', 0.5)}
+{note("want", 'B4', 0.5)}
+{note("your", 'B4', 0.5)}
+{note(words.mononoun2, 'B4', 1.0)}
+{note("I", 'E4', 1.0)}
+{rest(1.0)}
+{note("want", 'B4', 0.5)}
+{note("your", 'B4', 0.5)}
+{note(get_syllables(words.amphinoun2)[0], 'B4', 0.5)}
+{note(get_syllables(words.amphinoun2)[1], 'B4', 1.0)}
+{note(get_syllables(words.amphinoun2)[2], 'E4', 0.5)}
+{rest(2.0)}
+{note("I", 'A4', 0.5)}
+{note("want", 'E4', 0.5)}
+{note("what", 'D4', 0.5)}
+{note("you", 'C#4', 0.5)}
+{note("got", 'D4', 1.5)}
+{rest(1.0)}
+{note("I", 'D4', 0.5)}
+{note("say", 'D4', 0.5)}
+{note("it", 'C4', 0.5)}
+{note("uh", 'B3', 0.5)}
+{note("lot", 'A3', 1.0)}
 </SINGING>
   '''
   return xml
@@ -71,6 +156,9 @@ if __name__ == "__main__":
   } )
 
   word_choices = WordChoices(wordlists)
+  lyrics = random_lyrics(word_choices)
+  lyrics = lyrics if len(lyrics) <= 280 else (lyrics[:279] + '…')
   print(random_lyrics(word_choices))
   print()
-  print(singing_xml(word_choices))
+  with open("xml-out.xml", "w") as xml_out:
+    xml_out.write(singing_xml(word_choices))
