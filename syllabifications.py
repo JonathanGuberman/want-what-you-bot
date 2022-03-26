@@ -16,4 +16,13 @@ def init(filename="cmudict.0.6-syl"):
 
 def get_syllables(word):
   init()
-  return syllabifications.get(word)
+  syllabification = syllabifications.get(word)
+  if syllabification:
+    return syllabification
+  if word[-1] == 's':
+    singular = syllabifications.get(word[:-1])
+    plural = singular.copy()
+    plural[-1] += 'z'
+    return plural
+
+  return None
