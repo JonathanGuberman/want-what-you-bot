@@ -7,6 +7,14 @@ class PartsOfSpeech(Enum):
   NOUN = auto()
   ADJECTIVE = auto()
 
+class RealWordChoices:
+  def __init__(self):
+      self.mononoun1, self.mononoun2 = "waist", "car"
+      self.trocheenoun1, self.trocheenoun2 = "suntan", "boyfriend"
+      self.amphinoun1, self.amphinoun2 = "vacation", "apartment"
+      self.adj = "small"
+
+
 class WordChoices:
   def __init__(self, wordlists):
       self.mononoun1, self.mononoun2 = random.sample(wordlists[(PartsOfSpeech.NOUN, 1)], 2)
@@ -43,22 +51,22 @@ def singing_xml(words):
 "Singing.v0_1.dtd">
 <SINGING BPM="112">
 {rest(10.15)}
-{note("I", 'B4', 0.5)}
-{note("want", 'B4', 0.5)}
-{note("your", 'B4', 0.5)}
-{note(get_syllables(words.trocheenoun1)[0], 'B4', 1.0)}
-{note(get_syllables(words.trocheenoun1)[1], 'E4', 1.0)}
+{note("I", 'C4', 0.5)}
+{note("want", 'C4', 0.5)}
+{note("your", 'C4', 0.5)}
+{note(get_syllables(words.trocheenoun1)[0], 'C4', 1.0)}
+{note(get_syllables(words.trocheenoun1)[1], 'G3', 1.0)}
 {rest(1.0)}
-{note("I", 'B4', 1.0)}
-{note("want", 'B4', 0.5)}
-{note("your", 'B4', 0.5)}
-{note(get_syllables(words.trocheenoun2)[0], 'B4', 1.0)}
-{note(get_syllables(words.trocheenoun2)[1], 'E4', 1.0)}
+{note("I", 'C4', 1.0)}
+{note("want", 'C4', 0.5)}
+{note("your", 'C4', 0.5)}
+{note(get_syllables(words.trocheenoun2)[0], 'C4', 1.0)}
+{note(get_syllables(words.trocheenoun2)[1], 'G3', 1.0)}
 {rest(2.0)}
-{note("I", 'A4', 1.0)}
+{note("I", 'E4', 1.0)}
 {note("want", 'E4', 0.5)}
 {note("what", 'D4', 0.5)}
-{note("you", 'C#4', 0.5)}
+{note("you", 'C4', 0.5)}
 {note("got", 'D4', 1.0)}
 {rest(1.5)}
 {note("I", 'D4', 0.5)}
@@ -67,17 +75,17 @@ def singing_xml(words):
 {note("uh", 'B3', 0.5)}
 {note("lot", 'A3', 1.0)}
 {rest(0.5)}
-{note("I", 'B4', 1.0)}
-{note("want", 'B4', 0.5)}
-{note("your", 'B4', 0.5)}
-{note(words.adj, 'B4', 1.0)}
-{note(words.mononoun1, 'E4', 1.0)}
+{note("I", 'C4', 1.0)}
+{note("want", 'C4', 0.5)}
+{note("your", 'C4', 0.5)}
+{note(words.adj, 'C4', 1.0)}
+{note(words.mononoun1, 'G3', 1.0)}
 {rest(1.0)}
-{note("want", 'B4', 0.5)}
-{note("your", 'B4', 0.5)}
-{note(get_syllables(words.amphinoun1)[0], 'B4', 0.5)}
-{note(get_syllables(words.amphinoun1)[1], 'B4', 1.0)}
-{note(get_syllables(words.amphinoun1)[2], 'E4', 1.0)}
+{note("want", 'C4', 0.5)}
+{note("your", 'C4', 0.5)}
+{note(get_syllables(words.amphinoun1)[0], 'C4', 0.5)}
+{note(get_syllables(words.amphinoun1)[1], 'C4', 1.0)}
+{note(get_syllables(words.amphinoun1)[2], 'G3', 1.0)}
 {rest(2.5)}
 {note("I", 'A4', 0.5)}
 {note("want", 'E4', 0.5)}
@@ -91,18 +99,21 @@ def singing_xml(words):
 {note("uh", 'B3', 0.5)}
 {note("lot", 'A3', 1.0)}
 {rest(1.0)}
-<PITCH NOTE="A4"><DURATION BEATS="0.5">oh</DURATION></PITCH>
-<PITCH NOTE="A4"><DURATION BEATS="0.5">my</DURATION></PITCH>
-<PITCH NOTE="A4"><DURATION BEATS="1.5">god</DURATION></PITCH>
-<PITCH NOTE="G4"><DURATION BEATS="0.5">oh</DURATION></PITCH>
-<PITCH NOTE="G4"><DURATION BEATS="0.5">my</DURATION></PITCH>
-<PITCH NOTE="G4"><DURATION BEATS="1.5">god</DURATION></PITCH>
-<PITCH NOTE="D4"><DURATION BEATS="0.5">oh</DURATION></PITCH>
-<PITCH NOTE="D4"><DURATION BEATS="0.5">my</DURATION></PITCH>
-<PITCH NOTE="D4"><DURATION BEATS="0.5">god</DURATION></PITCH>
-<PITCH NOTE="D4"><DURATION BEATS="1.0">oh</DURATION></PITCH>
-<PITCH NOTE="F4"><DURATION BEATS="0.5">my</DURATION></PITCH>
-<PITCH NOTE="E4"><DURATION BEATS="1.5">god</DURATION></PITCH>
+{note("oh", 'G4', 0.5)}
+{note("my", 'G4', 0.5)}
+{note("god", 'G4', 1.5)}
+
+{note("oh", 'F4', 0.5)}
+{note("my", 'F4', 0.5)}
+{note("god", 'F4', 1.5)}
+
+{note("oh", 'C4', 0.5)}
+{note("my", 'C4', 0.5)}
+{note("god", 'C4', 0.5)}
+
+{note("oh", 'C4', 1.0)}
+{note("my", 'Eb4', 0.5)}
+{note("god", 'D4', 1.5)}
 {rest(1.0)}
 {note("I", 'A4', 0.5)}
 {note("want", 'E4', 0.5)}
@@ -116,22 +127,22 @@ def singing_xml(words):
 {note("uh", 'B3', 0.5)}
 {note("lot", 'A3', 1.0)}
 {rest(1.0)}
-{note("I", 'B4', 0.5)}
-{note("want", 'B4', 0.5)}
-{note("your", 'B4', 0.5)}
-{note(words.mononoun2, 'B4', 1.0)}
-{note("I", 'E4', 1.0)}
+{note("I", 'C4', 0.5)}
+{note("want", 'C4', 0.5)}
+{note("your", 'C4', 0.5)}
+{note(words.mononoun2, 'C4', 1.0)}
+{note("I", 'G3', 1.0)}
 {rest(1.0)}
-{note("want", 'B4', 0.5)}
-{note("your", 'B4', 0.5)}
-{note(get_syllables(words.amphinoun2)[0], 'B4', 0.5)}
-{note(get_syllables(words.amphinoun2)[1], 'B4', 1.0)}
-{note(get_syllables(words.amphinoun2)[2], 'E4', 0.5)}
+{note("want", 'C4', 0.5)}
+{note("your", 'C4', 0.5)}
+{note(get_syllables(words.amphinoun2)[0], 'C4', 0.5)}
+{note(get_syllables(words.amphinoun2)[1], 'C4', 1.0)}
+{note(get_syllables(words.amphinoun2)[2], 'G3', 1.5)}
 {rest(2.0)}
-{note("I", 'A4', 0.5)}
+{note("I", 'E4', 0.5)}
 {note("want", 'E4', 0.5)}
 {note("what", 'D4', 0.5)}
-{note("you", 'C#4', 0.5)}
+{note("you", 'C4', 0.5)}
 {note("got", 'D4', 1.5)}
 {rest(1.0)}
 {note("I", 'D4', 0.5)}
@@ -156,6 +167,7 @@ if __name__ == "__main__":
   } )
 
   word_choices = WordChoices(wordlists)
+  # word_choices = RealWordChoices()
   lyrics = random_lyrics(word_choices)
   lyrics = lyrics if len(lyrics) <= 280 else (lyrics[:279] + '…')
   print(random_lyrics(word_choices))
