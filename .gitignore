@@ -1,3 +1,5 @@
 env/
 *.pyc
 *.tar.gz
+.DS_Store
+audio/
