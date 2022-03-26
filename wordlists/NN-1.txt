@@ -2030,8 +2030,6 @@ range
 rank
 ranks
 rap
-rape
-rapes
 rasp
 rasps
 rat
