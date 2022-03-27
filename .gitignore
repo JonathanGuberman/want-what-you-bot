@@ -3,5 +3,6 @@ env/
 *.tar.gz
 .DS_Store
 audio/
+images/
 tmp/
 .env
