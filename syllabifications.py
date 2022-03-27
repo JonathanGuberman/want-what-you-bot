@@ -2,7 +2,7 @@ from string import digits
 
 syllabifications = None
 
-def init(filename="cmudict.0.6-syl"):
+def init(filename="wordlists/cmudict.0.6-syl"):
   global syllabifications
   if syllabifications is None:
     syllabifications = {}

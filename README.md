@@ -16,8 +16,4 @@ I used a few parts of the [Natural Language Toolkit (NLTK)](https://www.nltk.org
 
 The full list of words from the Carnegie Mellon Pronouncing Dictionary had too many obscure entries, so I got a list of the 20,000 most common English words from [here](https://github.com/first20hours/google-10000-english) and used that as my initial word source.
 
-After doing all this, I found that Martin O'Leary has already done a much better job of curating this data, _and_ he's made it [publicly available](https://github.com/mewo2/syllpos). 🤦 He also pointed out the amazing [`pronouncing`](https://github.com/mewo2/pronouncingpy) library for Python by Allison Parrish. The latest version uses his approach, which allowed me to eliminate proper nouns.
-
-## To-do's
-
-Next up I need to auto-generate the singing audio. Botston uses [Festival](http://festvox.org/festival/index.html), which I'll need to try to compile from source.
+After doing all this, I found that Martin O'Leary has already done a much better job of curating this data, _and_ he's made it [publicly available](https://github.com/mewo2/syllpos). 🤦 He also pointed out the amazing [`pronouncing`](https://github.com/mewo2/pronouncingpy) library for Python by Allison Parrish. The latest version uses his approach, which allowed me to eliminate proper nouns. I also used the "bad word" list found [here](https://www.cs.cmu.edu/~biglou/resources/) to remove potentially offensive words.

@@ -2,8 +2,6 @@ abandon
 abdomen
 abduction
 abeyance
-ablation
-abortion
 abortions
 abruptness
 absentia
@@ -39,7 +37,6 @@ addresses
 adherence
 adherent
 adherents
-adhesion
 adhesive
 adhesives
 adjournment
@@ -90,7 +87,6 @@ allowance
 allusion
 allusions
 aloofness
-alumnae
 alumni
 amassing
 amazement
@@ -148,7 +144,6 @@ aspirant
 aspirants
 assailant
 assailants
-assassin
 assassins
 assemblage
 assemblies
@@ -209,7 +204,6 @@ beginning
 beginnings
 behavior
 behaviors
-behaviour
 believer
 believers
 belonging
@@ -288,7 +282,6 @@ compartments
 compassion
 compiler
 complainant
-complection
 completeness
 completion
 completions
@@ -344,7 +337,6 @@ conjunctions
 connection
 connections
 connective
-connexion
 connivance
 conscription
 consensus
@@ -396,7 +388,6 @@ corrections
 correctness
 corrosion
 corrupting
-corruption
 cosmetic
 cosmetics
 coyote
@@ -408,7 +399,6 @@ credentials
 crescendo
 crusader
 curator
-damnation
 debacle
 debating
 debentures
@@ -450,7 +440,6 @@ dependents
 depiction
 depletion
 deployment
-deposit
 deposits
 depressants
 depression
@@ -465,7 +454,6 @@ desertion
 designer
 designers
 designing
-desire
 desires
 despairing
 destroyer
@@ -523,7 +511,6 @@ discredit
 discretion
 discussion
 discussions
-diseases
 disfavor
 dishonor
 dismissal
@@ -651,12 +638,10 @@ equipment
 equipping
 eraser
 erasers
-erection
 erosion
 eruption
 essential
 essentials
-esthetics
 estrangement
 evasion
 evasions
@@ -689,7 +674,6 @@ expansions
 expenses
 explorer
 explorers
-explosion
 explosive
 explosives
 exponents
@@ -716,7 +700,6 @@ finale
 finances
 financing
 flirtation
-fluorescence
 foreboding
 foregoing
 forgiveness
@@ -743,7 +726,6 @@ gyration
 gyrations
 heroics
 hibachi
-high-level
 horizon
 horizons
 hydraulics
@@ -767,7 +749,6 @@ impromptu
 improvement
 improvements
 impulses
-in-person
 inaction
 incentive
 incentives
@@ -815,7 +796,6 @@ inscriptions
 insertion
 insiders
 insistence
-insouciance
 inspection
 inspections
 inspector
@@ -855,11 +835,9 @@ iota
 italics
 jalopy
 kimono
-last-minute
 legato
 liaison
 liaisons
-libido
 libretto
 lieutenant
 lieutenants
@@ -867,10 +845,7 @@ linguistics
 location
 locations
 logistics
-long-distance
-low-level
 lymphoma
-machinegun
 machinery
 machinist
 magician
@@ -913,7 +888,6 @@ museums
 musician
 musicians
 mutations
-narcotic
 narcotics
 narration
 necrosis
@@ -922,7 +896,6 @@ neuroses
 neurosis
 neurotic
 nirvana
-non-fiction
 non-nonsense
 nonfiction
 nonpayment
@@ -992,7 +965,6 @@ perfection
 performance
 performer
 performers
-perfusion
 permission
 peroxide
 persistence
@@ -1030,12 +1002,9 @@ possession
 possessions
 possessive
 possessor
-post-mortem
 postponement
 potato
 potatoes
-potboiler
-potboilers
 potential
 potentials
 practitioner
@@ -1144,8 +1113,6 @@ refinement
 refinements
 reflection
 reflections
-reflector
-reflectors
 reformer
 reformers
 refresher
@@ -1209,7 +1176,6 @@ resemblance
 resentment
 resilience
 resistance
-resistor
 resistors
 respondent
 respondents
@@ -1252,7 +1218,6 @@ safari
 salami
 saliva
 salvation
-sanhedrin
 schemata
 sclerosis
 secession
@@ -1271,7 +1236,6 @@ senora
 sensation
 sensations
 sienna
-siesta
 solution
 solutions
 sonata
@@ -1333,7 +1297,6 @@ temptation
 temptations
 thanksgiving
 thesaurus
-three-quarters
 thrombosis
 tobacco
 tomato
@@ -1396,7 +1359,6 @@ vocation
 volcano
 volcanos
 volition
-well-being
 wellbeing
 withdrawal
 withholding

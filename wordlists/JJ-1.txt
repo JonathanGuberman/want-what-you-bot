@@ -12,12 +12,10 @@ bass
 beat
 beige
 big
-black
 blanche
 bland
 blank
 bleak
-blind
 blithe
 blond
 blonde
@@ -55,8 +53,6 @@ con
 cool
 coy
 crabbed
-crack
-crash
 crass
 cream
 crisp
@@ -65,12 +61,10 @@ crude
 curt
 cute
 dam
-damn
 damp
 dang
 dank
 dark
-dead
 deaf
 dear
 deep
@@ -82,11 +76,9 @@ down
 drab
 dread
 drop
-drunk
 dry
 due
 dull
-dumb
 eared
 east
 faint
@@ -96,7 +88,6 @@ false
 famed
 far
 fast
-fat
 fell
 fierce
 firm
@@ -106,7 +97,6 @@ fleet
 flush
 fond
 fool
-fore
 foul
 frail
 frank
@@ -116,7 +106,6 @@ front
 full
 gauche
 gaunt
-gay
 gilt
 glad
 glib
@@ -130,7 +119,6 @@ great
 green
 grey
 grim
-gross
 gruff
 hard
 harsh
@@ -144,7 +132,6 @@ huge
 hurt
 ill
 jagged
-joint
 just
 keen
 kind
@@ -169,7 +156,6 @@ lop
 loud
 low
 lush
-mad
 male
 marked
 mass
@@ -191,7 +177,6 @@ new
 nice
 non
 north
-nude
 null
 numb
 nuts
@@ -219,7 +204,6 @@ prone
 proud
 pure
 quaint
-queer
 quick
 rank
 rapt
@@ -249,7 +233,6 @@ short
 shrewd
 shrill
 shy
-sick
 side
 sized
 ski
@@ -273,7 +256,6 @@ sound
 south
 spare
 sparse
-spic
 square
 squat
 stale

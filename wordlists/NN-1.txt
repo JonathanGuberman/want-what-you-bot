@@ -30,7 +30,6 @@ arms
 art
 arts
 ash
-ass
 aunt
 aunts
 awe
@@ -50,7 +49,6 @@ bait
 bale
 bales
 ball
-balls
 ban
 band
 bands
@@ -84,7 +82,6 @@ beans
 bear
 beard
 beards
-beast
 beasts
 beat
 beats
@@ -131,13 +128,10 @@ birth
 births
 bisque
 bit
-bitch
 bite
 bites
 bits
 biz
-black
-blacks
 blade
 blades
 blame
@@ -149,7 +143,6 @@ blaze
 blend
 blends
 blight
-blind
 blinds
 blips
 bliss
@@ -170,7 +163,6 @@ blooms
 blot
 blots
 blouse
-blow
 blows
 blue
 blues
@@ -187,15 +179,12 @@ boies
 boil
 bolt
 bolts
-bomb
-bombs
 bond
 bonds
 bone
 bones
 book
 books
-boom
 boon
 boors
 boos
@@ -243,7 +232,6 @@ bread
 breadth
 break
 breaks
-breast
 breasts
 breath
 breaths
@@ -302,7 +290,6 @@ bunks
 buns
 bunt
 burl
-burn
 burns
 burr
 burst
@@ -312,7 +299,6 @@ bush
 buss
 bust
 busts
-butt
 butts
 buy
 buzz
@@ -404,7 +390,6 @@ child
 chill
 chills
 chimes
-chin
 chip
 chips
 chives
@@ -423,7 +408,6 @@ chum
 chump
 chunk
 chunks
-church
 chute
 cinch
 claim
@@ -467,7 +451,6 @@ clothes
 cloud
 clouds
 clout
-clove
 cloves
 clown
 clowns
@@ -487,7 +470,6 @@ coast
 coasts
 coat
 coats
-cock
 cod
 code
 codes
@@ -538,17 +520,12 @@ cove
 coves
 cow
 cows
-crabs
-crack
 cracks
 craft
 crafts
-crags
 cramp
 cramps
 crank
-crap
-crash
 crate
 crates
 crawl
@@ -558,7 +535,6 @@ creak
 cream
 creams
 crease
-creche
 creed
 creeds
 creek
@@ -572,8 +548,6 @@ crews
 crib
 cribs
 cries
-crime
-crimes
 crisp
 croak
 crone
@@ -626,7 +600,6 @@ dais
 dales
 dam
 dame
-damn
 dams
 dance
 dark
@@ -637,13 +610,11 @@ dates
 dawn
 day
 days
-dead
 deal
 deals
 dean
 dear
 dearth
-death
 deaths
 debs
 debt
@@ -664,9 +635,7 @@ desks
 dew
 dice
 dicks
-die
 diem
-dies
 dig
 dill
 dime
@@ -682,7 +651,6 @@ dish
 disk
 disks
 ditch
-dive
 dives
 doc
 dock
@@ -695,11 +663,9 @@ dolls
 dome
 domes
 don
-doom
 dooms
 door
 doors
-dope
 dose
 dot
 dots
@@ -746,11 +712,9 @@ drought
 droughts
 drove
 droves
-drug
 drugs
 drum
 drums
-drunk
 drunks
 duck
 ducks
@@ -799,7 +763,6 @@ fad
 fade
 fair
 fairs
-faith
 faiths
 fake
 fall
@@ -814,14 +777,12 @@ fares
 farm
 farms
 fast
-fat
 fate
 fates
 fats
 fault
 faults
 fawn
-fear
 fears
 feast
 feasts
@@ -844,7 +805,6 @@ field
 fields
 fiend
 fig
-fight
 fights
 file
 files
@@ -873,7 +833,6 @@ flair
 flakes
 flame
 flames
-flange
 flank
 flare
 flares
@@ -933,7 +892,6 @@ foot
 for
 force
 fords
-fore
 forge
 fork
 forks
@@ -951,7 +909,6 @@ francs
 frank
 franks
 frau
-fraud
 frauds
 fray
 freak
@@ -973,7 +930,6 @@ frost
 froth
 fruit
 fruits
-fucks
 full
 fumes
 fun
@@ -1025,17 +981,13 @@ germ
 germs
 ghost
 ghosts
-ghoul
-ghouls
 gibe
 gibes
 gift
 gifts
 gig
 gilt
-gin
 girl
-girls
 girth
 gist
 give
@@ -1059,15 +1011,12 @@ gloves
 glow
 glue
 glum
-gnome
 gnomes
 go
 goad
 goal
 goals
 goat
-gob
-god
 gods
 gold
 golf
@@ -1124,7 +1073,6 @@ groom
 grooms
 groove
 grooves
-gross
 ground
 grounds
 group
@@ -1155,7 +1103,6 @@ gulp
 gulps
 gum
 gums
-gun
 guns
 gush
 gust
@@ -1218,7 +1165,6 @@ height
 heights
 heir
 heirs
-hell
 helm
 help
 helps
@@ -1229,7 +1175,6 @@ herb
 herbs
 herd
 herds
-hex
 hick
 hide
 hides
@@ -1251,12 +1196,10 @@ hitch
 hits
 hive
 hob
-hoes
 hog
 hogs
 hold
 holds
-hole
 holes
 home
 homes
@@ -1266,7 +1209,6 @@ hood
 hoods
 hoof
 hoofs
-hook
 hooks
 hoop
 hoops
@@ -1279,7 +1221,6 @@ hopes
 hops
 horde
 hordes
-horn
 horns
 horse
 hose
@@ -1324,10 +1265,8 @@ inn
 inns
 ire
 isle
-itch
 jab
 jabs
-jade
 jail
 jails
 jakes
@@ -1352,7 +1291,6 @@ jinx
 job
 jobs
 john
-joint
 joints
 joke
 jokes
@@ -1385,10 +1323,7 @@ keys
 khan
 kick
 kicks
-kid
 kids
-kill
-kills
 kilts
 kin
 kind
@@ -1402,7 +1337,6 @@ kits
 knack
 knee
 knees
-knife
 knight
 knights
 knit
@@ -1417,7 +1351,6 @@ knots
 knott
 know
 kraft
-kraut
 l
 l's
 l.
@@ -1463,7 +1396,6 @@ lawn
 lawns
 laws
 lays
-lb
 lead
 leads
 leaf
@@ -1492,7 +1424,6 @@ lids
 lie
 lien
 liens
-lies
 lieu
 life
 lift
@@ -1570,7 +1501,6 @@ lute
 lymph
 ma
 ma'am
-mad
 maid
 maids
 mail
@@ -1675,7 +1605,6 @@ move
 moves
 muck
 mud
-muff
 mug
 mugs
 mulch
@@ -1710,14 +1639,12 @@ niece
 night
 nights
 nil
-nip
 nips
 nod
 nodes
 nods
 noes
 noise
-nonce
 nooks
 noon
 noose
@@ -1738,7 +1665,6 @@ nuns
 nurse
 nut
 nuts
-nymph
 nymphs
 o
 oak
@@ -1820,7 +1746,6 @@ pearl
 pearls
 pears
 peas
-peck
 peer
 peers
 peg
@@ -1852,7 +1777,6 @@ pile
 piles
 pill
 pills
-pimp
 pimps
 pin
 pinch
@@ -1930,7 +1854,6 @@ ports
 pose
 post
 posts
-pot
 pots
 pouch
 pound
@@ -1943,7 +1866,6 @@ prep
 press
 prey
 price
-prick
 pricks
 pride
 priest
@@ -1961,7 +1883,6 @@ prod
 proof
 prop
 props
-pros
 prose
 prow
 prowl
@@ -1971,7 +1892,6 @@ psalm
 psi
 pub
 pubs
-puke
 pull
 pulls
 pulp
@@ -2030,6 +1950,7 @@ range
 rank
 ranks
 rap
+rapes
 rasp
 rasps
 rat
@@ -2071,7 +1992,6 @@ right
 rights
 rigs
 rim
-rime
 rims
 ring
 rings
@@ -2081,7 +2001,6 @@ risk
 risks
 rite
 rites
-roach
 road
 roads
 roar
@@ -2114,8 +2033,6 @@ rot
 rouge
 round
 rounds
-route
-routes
 row
 rows
 rub
@@ -2125,9 +2042,7 @@ rugs
 rule
 rules
 rum
-rump
 run
-runes
 rung
 runs
 ruse
@@ -2199,7 +2114,6 @@ screams
 screech
 screen
 screens
-screw
 screws
 scribe
 script
@@ -2226,14 +2140,12 @@ serfs
 serge
 set
 sets
-sex
 shack
 shacks
 shade
 shades
 shaft
 shafts
-shag
 shake
 shakes
 sham
@@ -2274,13 +2186,11 @@ ship
 ships
 shirt
 shirts
-shit
 shoals
 shock
 shocks
 shoe
 shoes
-shoot
 shop
 shops
 shore
@@ -2352,11 +2262,9 @@ slack
 slacks
 slam
 slang
-slant
 slat
 slate
 slats
-slave
 slaves
 sleep
 sleet
@@ -2473,7 +2381,6 @@ spin
 spine
 spire
 spires
-spit
 spite
 splash
 spleen
@@ -2634,7 +2541,6 @@ strip
 stripe
 stripes
 strips
-stroke
 strokes
 stroll
 strut
@@ -2650,7 +2556,6 @@ style
 styles
 sub
 subs
-suck
 suds
 suit
 suite
@@ -2704,7 +2609,6 @@ tales
 talk
 talks
 tan
-tang
 tank
 tanks
 tap
@@ -2805,7 +2709,6 @@ tint
 tints
 tip
 tips
-tits
 toad
 toast
 toe
@@ -2822,7 +2725,6 @@ ton
 tone
 tones
 tongs
-tongue
 tongues
 tons
 tool
@@ -2856,7 +2758,6 @@ train
 trains
 trait
 traits
-tramp
 trance
 trap
 traps
@@ -3034,14 +2935,10 @@ whine
 whip
 whips
 whirl
-whit
 white
-whites
-whiz
 whole
 wholes
 whoop
-whore
 whores
 whorls
 wick
@@ -3092,7 +2989,6 @@ wrath
 wreath
 wreaths
 wreck
-wretch
 wrist
 wrists
 writ
@@ -3115,7 +3011,6 @@ years
 yeast
 yeasts
 yell
-yelp
 yen
 yield
 yields

@@ -6,7 +6,6 @@ acid
 acrid
 active
 actual
-adult
 adverse
 ageless
 agile
@@ -19,7 +18,6 @@ alma
 amber
 ample
 ancient
-angry
 antic
 anxious
 ardent
@@ -54,9 +52,7 @@ beady
 bearded
 bearish
 beefy
-bestial
 binding
-birdlike
 bitter
 blatant
 bleary
@@ -70,7 +66,6 @@ bodied
 bogus
 boisterous
 bony
-booby
 bookish
 boorish
 bottom
@@ -81,7 +76,6 @@ boxy
 boyish
 brackish
 brainy
-brand-new
 brassy
 brazen
 breathless
@@ -97,8 +91,6 @@ brushy
 brutal
 bubbly
 bugeyed
-built-in
-builtin
 bulky
 bullish
 buoyant
@@ -146,14 +138,12 @@ clammy
 clannish
 classic
 classless
-clear-cut
 clever
 cloudless
 cloudy
 clumsy
 coastal
 cockeyed
-cocky
 collar
 comely
 comic
@@ -182,7 +172,6 @@ craggy
 cranky
 craven
 crazy
-creamy
 creepy
 crested
 crimson
@@ -216,7 +205,6 @@ different
 dingy
 dipole
 dire
-dirty
 dismal
 distal
 distant
@@ -240,7 +228,6 @@ dreary
 dressy
 drizzly
 drowsy
-drunken
 dual
 dulcet
 dummy
@@ -260,7 +247,6 @@ empty
 endless
 epic
 equal
-ethnic
 even
 evil
 excess
@@ -306,8 +292,6 @@ finite
 fiscal
 fitful
 fitting
-five-day
-five-year
 flagrant
 flaky
 flashy
@@ -349,13 +333,10 @@ frosty
 frothy
 fruitful
 fruitless
-full-sized
-full-time
 fungal
 funny
 furtive
 fussy
-fusty
 futile
 future
 fuzzy
@@ -384,7 +365,6 @@ gloomy
 glossy
 glottal
 goddam
-goddamn
 godless
 golden
 gooey
@@ -405,7 +385,6 @@ gritty
 grizzled
 groggy
 groundless
-grown-up
 grubby
 gruesome
 guileless
@@ -418,7 +397,6 @@ hackneyed
 haggard
 hairless
 hairy
-half-cocked
 handsome
 handy
 hapless
@@ -447,7 +425,6 @@ helpful
 helpless
 hollow
 holy
-home-grown
 homebound
 homely
 homesick
@@ -461,7 +438,6 @@ human
 humble
 humid
 hungry
-husky
 hydrous
 icy
 idle
@@ -539,7 +515,6 @@ lonely
 lonesome
 longish
 looking
-lordly
 lousy
 lovely
 lowdown
@@ -560,7 +535,6 @@ magic
 major
 makeshift
 mammoth
-man-made
 manic
 manly
 mannered
@@ -603,7 +577,6 @@ mortal
 motive
 motley
 mournful
-mousy
 moving
 muddy
 muggy
@@ -611,12 +584,10 @@ murky
 mustached
 mystic
 mythic
-naked
 nameless
 narrow
 nasal
 nascent
-nasty
 natal
 national
 native
@@ -634,7 +605,6 @@ neutral
 newborn
 newly
 nighttime
-no-good
 noble
 noisy
 normal
@@ -648,7 +618,6 @@ olive
 only
 open
 opposite
-oral
 orange
 outback
 outboard
@@ -671,7 +640,6 @@ patient
 paunchy
 peaceful
 pearly
-pee-wee
 peerless
 pelvic
 penal
@@ -681,7 +649,6 @@ perky
 petty
 phonic
 phony
-pick-up
 piecemeal
 pillared
 pious
@@ -694,7 +661,6 @@ plastic
 playful
 pleasant
 pleasing
-pleural
 pliant
 poignant
 pointed
@@ -734,7 +700,6 @@ pushing
 puzzling
 quiet
 rabid
-racial
 racy
 radiant
 raffish
@@ -772,7 +737,6 @@ roomy
 rootless
 rosy
 rotten
-rousing
 rowdy
 royal
 ruddy
@@ -812,7 +776,6 @@ senseless
 separate
 septic
 servile
-sexy
 shabby
 shady
 shaggy
@@ -832,7 +795,6 @@ showy
 sickly
 sideways
 silent
-silken
 silky
 silly
 silver
@@ -860,7 +822,6 @@ snobbish
 snowy
 soapy
 sober
-socal
 social
 sodden
 soggy
@@ -885,7 +846,6 @@ sparkling
 spatial
 special
 specious
-spectral
 speechless
 speedy
 spicy
@@ -937,7 +897,6 @@ stubborn
 stubby
 stuffy
 stunning
-stupid
 sturdy
 stylish
 subject
@@ -992,12 +951,9 @@ thoughtful
 thoughtless
 threadbare
 threatening
-three-way
-three-year
 threefold
 thrifty
 thrilling
-throaty
 tidal
 tidy
 timeless
@@ -1030,8 +986,6 @@ tuneful
 turquoise
 tweedy
 twisty
-two-day
-two-way
 ugly
 under
 upbeat
@@ -1057,7 +1011,6 @@ veteran
 vibrant
 vicious
 violent
-virgin
 virile
 viscous
 vital
@@ -1081,7 +1034,6 @@ weekly
 weighty
 welcome
 western
-whiskered
 wholesale
 wholesome
 whopping

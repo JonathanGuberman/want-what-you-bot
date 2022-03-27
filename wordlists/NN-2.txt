@@ -1,7 +1,6 @@
 abbey
 abbot
 absence
-absinthe
 abstract
 abstracts
 accent
@@ -22,12 +21,10 @@ actor
 actors
 actress
 adage
-addicts
 adding
 address
 adjunct
 adjuncts
-adult
 adults
 advent
 adverb
@@ -39,7 +36,6 @@ agates
 agent
 agents
 ages
-ague
 ailment
 ailments
 aircraft
@@ -78,7 +74,6 @@ altar
 alto
 alum
 ambush
-amide
 ammo
 anchor
 anchorage
@@ -117,7 +112,6 @@ argot
 armchair
 armchairs
 armies
-armoire
 armor
 armpit
 armpits
@@ -135,7 +129,6 @@ aspen
 asphalt
 aspirin
 assay
-asses
 asset
 assets
 asters
@@ -159,7 +152,6 @@ axis
 axle
 axles
 babel
-babies
 baby
 bachelor
 bachelors
@@ -198,7 +190,6 @@ bandit
 bandits
 bandstand
 bandwidth
-banging
 banjo
 banker
 bankers
@@ -234,7 +225,6 @@ basis
 basket
 baskets
 basses
-bastard
 bastards
 bastion
 bathers
@@ -266,7 +256,6 @@ beatnik
 beatniks
 beauties
 beauty
-beaver
 bebop
 bedding
 bedlam
@@ -286,7 +275,6 @@ being
 beings
 belching
 belfry
-bellboy
 bellhops
 bellies
 bellow
@@ -304,7 +292,6 @@ beverage
 bevy
 bias
 bibles
-bicep
 biceps
 bidder
 bidders
@@ -342,7 +329,6 @@ blackening
 blackjack
 blackmail
 blackness
-blackout
 blacksmith
 blandness
 blanket
@@ -360,7 +346,6 @@ blisters
 blitzes
 blizzard
 blizzards
-blockhouse
 bloodhounds
 bloodshed
 bloodstains
@@ -391,10 +376,7 @@ boating
 boatload
 boatloads
 boatman
-boatswain
-bobbles
 bobby
-bodice
 bodies
 body
 bogey
@@ -403,14 +385,10 @@ boilers
 boldness
 bolster
 bomber
-bombers
-bombing
 bombings
-bondage
 bongo
 bonnet
 bonus
-booby
 boogie
 bookcase
 booker
@@ -424,7 +402,6 @@ bookshelf
 bookshelves
 boomtown
 booster
-booty
 borax
 border
 borders
@@ -461,7 +438,6 @@ boyhood
 bracelet
 braces
 bracing
-bracket
 brackets
 brambles
 branches
@@ -481,7 +457,6 @@ breakup
 breakups
 breather
 breathing
-breeches
 breezes
 brethren
 bridal
@@ -508,7 +483,6 @@ broker
 brokerage
 brokers
 bromides
-brothel
 brothels
 brother
 brothers
@@ -539,7 +513,6 @@ buggers
 buggies
 buggy
 bugle
-build-up
 builder
 builders
 building
@@ -550,7 +523,6 @@ bulkheads
 bullet
 bullets
 bullies
-bullshit
 bully
 bulwark
 bumper
@@ -617,7 +589,6 @@ campground
 campgrounds
 campsites
 campus
-cancer
 cancers
 candies
 candle
@@ -755,7 +726,6 @@ chicken
 chickens
 chiefdom
 chieftain
-chilblains
 childbirth
 childhood
 children
@@ -818,7 +788,6 @@ cleansing
 cleanups
 clearance
 clearing
-clearness
 cleavage
 clergy
 cleric
@@ -834,7 +803,6 @@ clinches
 clinic
 clinics
 clippings
-clocking
 clockwork
 cloisters
 close-up
@@ -867,7 +835,6 @@ cobra
 cobwebs
 cockpit
 cockpits
-cocktail
 coco
 cocoa
 coed
@@ -887,7 +854,6 @@ collie
 colon
 colonel
 colonels
-color
 colors
 column
 columns
@@ -934,7 +900,6 @@ conference
 confines
 conflict
 conflicts
-confreres
 congress
 conic
 conquest
@@ -1101,7 +1066,6 @@ culprits
 cultist
 culture
 cultures
-cumin
 cunning
 cupboard
 cupboards
@@ -1119,7 +1083,6 @@ custom
 customs
 cutback
 cutlass
-cutlets
 cutoff
 cutouts
 cutter
@@ -1180,7 +1143,6 @@ defects
 deference
 deltas
 deluge
-demon
 demons
 dentist
 dentists
@@ -1195,7 +1157,6 @@ despot
 detail
 details
 detours
-devil
 devils
 dial
 dials
@@ -1402,7 +1363,6 @@ eras
 errand
 error
 errors
-escort
 escorts
 essay
 essays
@@ -1454,13 +1414,10 @@ faction
 factions
 factor
 factors
-failure
 failures
-fairies
 fairness
 fairway
 fairways
-fairy
 faithful
 faker
 falcon
@@ -1495,7 +1452,6 @@ favor
 favorite
 favorites
 favors
-favour
 fealty
 feather
 feathers
@@ -1526,7 +1482,6 @@ ferment
 ferries
 ferry
 fervor
-fetish
 fever
 fiat
 fiber
@@ -1568,13 +1523,11 @@ finger
 fingers
 finish
 finite
-fire
 firearms
 fireman
 firemen
 fires
 fireworks
-firing
 firmness
 firsthand
 fishers
@@ -1623,7 +1576,6 @@ fluorine
 flurry
 flutist
 flutter
-fluxes
 flyer
 flyers
 flying
@@ -1694,7 +1646,6 @@ founding
 foundling
 fountain
 fountains
-foursome
 foxholes
 foyer
 fraction
@@ -1740,7 +1691,6 @@ fullness
 fumble
 function
 functions
-fungus
 funnel
 funnels
 furlough
@@ -1911,7 +1861,6 @@ groceries
 grocers
 grocery
 groping
-grounder
 grounding
 groundwork
 groupings
@@ -1964,7 +1913,6 @@ hailstorm
 haircut
 haircuts
 hairdos
-half-time
 halfback
 halfbacks
 halftime
@@ -2014,7 +1962,6 @@ hardship
 hardships
 hardware
 hardwoods
-harem
 harness
 harping
 harshness
@@ -2024,7 +1971,6 @@ hasher
 hatchet
 hatching
 hatred
-haulage
 haven
 havens
 havoc
@@ -2044,7 +1990,6 @@ headdress
 header
 heading
 headings
-headlights
 headline
 headlines
 headroom
@@ -2087,8 +2032,6 @@ hiccups
 hickory
 hideout
 hiding
-high-school
-high-speed
 highboy
 highland
 highlight
@@ -2101,7 +2044,6 @@ hillside
 hilltops
 hindsight
 hinges
-hipster
 hissing
 histories
 history
@@ -2112,7 +2054,6 @@ hoaxes
 hobbies
 hobbing
 hobby
-hobo
 hockey
 hodgepodge
 holder
@@ -2133,7 +2074,6 @@ homesteads
 honey
 honor
 honors
-honour
 hoodlum
 hoodlums
 hookup
@@ -2153,10 +2093,8 @@ horsemen
 horseplay
 horses
 hoses
-hostage
 hostess
 hostler
-hot-shot
 hotbed
 hotdogs
 hothouse
@@ -2180,7 +2118,6 @@ human
 humans
 humming
 humor
-humour
 hunches
 hundreds
 hunger
@@ -2193,11 +2130,9 @@ hurley
 hurry
 husband
 husbands
-hustler
 hybrid
 hydride
 hygiene
-hymen
 icebox
 icing
 idler
@@ -2215,7 +2150,6 @@ imports
 impress
 impulse
 incense
-incest
 inches
 incline
 income
@@ -2272,7 +2206,6 @@ item
 items
 ivory
 ivy
-jackass
 jacket
 jackets
 jargon
@@ -2346,9 +2279,7 @@ kickoff
 kidding
 kidney
 kidneys
-killer
 killers
-killing
 kindness
 kindred
 kingdom
@@ -2364,7 +2295,6 @@ kittens
 kneecap
 knockdown
 knocking
-know-how
 knowledge
 knuckle
 knuckles
@@ -2376,7 +2306,6 @@ labour
 laces
 lackeys
 lacquer
-lactate
 ladder
 ladies
 ladle
@@ -2397,7 +2326,6 @@ lantern
 lanterns
 lapses
 larder
-large-scale
 larkspur
 larvae
 lashes
@@ -2493,7 +2421,6 @@ lifters
 lifting
 ligand
 ligands
-light-year
 lighter
 lighters
 lighting
@@ -2526,7 +2453,6 @@ lions
 lipstick
 liquid
 liquids
-liquor
 listener
 listeners
 listing
@@ -2572,14 +2498,10 @@ longshot
 longtime
 looking
 lookout
-lookup
 loophole
 loopholes
-lordship
-loser
 losers
 losses
-lotion
 lotions
 lotus
 lounges
@@ -2625,7 +2547,6 @@ mainstream
 maintenance
 major
 majors
-make-up
 maker
 makers
 makeup
@@ -2739,7 +2660,6 @@ meters
 method
 methods
 methyl
-metre
 mettle
 mezzo
 mica
@@ -2799,7 +2719,6 @@ models
 moderns
 modules
 moisture
-molar
 molding
 moment
 moments
@@ -2858,7 +2777,6 @@ mulling
 mumble
 mummies
 mural
-murder
 murders
 murmur
 muscle
@@ -2902,7 +2820,6 @@ needle
 needles
 neighbor
 neighbors
-neighbours
 neon
 nephew
 nephews
@@ -2910,7 +2827,6 @@ nester
 nestling
 network
 networks
-neuron
 neutron
 newsman
 newsmen
@@ -2992,8 +2908,6 @@ olive
 olives
 omelet
 omen
-one-night
-one-year
 oneness
 onion
 onions
@@ -3019,8 +2933,6 @@ orders
 ordnance
 organ
 organs
-orgies
-orgy
 orphan
 orphans
 others
@@ -3060,7 +2972,6 @@ outrage
 outreach
 outset
 outskirts
-ova
 oval
 oven
 ovens
@@ -3109,10 +3020,7 @@ pamphlets
 panel
 panels
 panic
-pansies
-pansy
 panthers
-panties
 pantry
 paper
 papers
@@ -3207,7 +3115,6 @@ pennies
 penny
 pension
 pensions
-penthouse
 people
 peoples
 pepper
@@ -3226,7 +3133,6 @@ phantom
 phases
 pheasant
 pheasants
-phonemes
 phony
 phosphate
 phosphates
@@ -3238,7 +3144,6 @@ phrases
 phrasing
 phyla
 physics
-pick-up
 picker
 pickers
 picket
@@ -3278,7 +3183,6 @@ pipers
 piping
 pirate
 pirates
-pistol
 pistols
 piston
 pistons
@@ -3321,7 +3225,6 @@ platinum
 platter
 platters
 playback
-playboy
 player
 players
 playground
@@ -3383,8 +3286,6 @@ portion
 portions
 portrait
 portraits
-poseur
-poseurs
 posse
 possum
 postcard
@@ -3516,13 +3417,11 @@ push-up
 push-ups
 pushers
 pushes
-pussy
 putter
 putty
 puzzle
 puzzler
 puzzles
-pyre
 python
 quantum
 quarrel
@@ -3530,18 +3429,15 @@ quarrels
 quarry
 quarter
 quarters
-quaver
 quenching
 queries
 query
 question
 questions
-quickie
 quickness
 quiet
 quota
 quotas
-rabbi
 rabbit
 rabbits
 rabble
@@ -3576,7 +3472,6 @@ rallies
 rally
 rambling
 rampage
-rampart
 rancher
 ranchers
 ranches
@@ -3608,7 +3503,6 @@ reader
 readers
 reading
 readings
-real-life
 realtor
 realtors
 realty
@@ -3627,7 +3521,6 @@ rector
 redcoat
 redcoats
 redhead
-redneck
 redress
 redwood
 redwoods
@@ -3703,7 +3596,6 @@ roadster
 roadway
 roadways
 roaring
-robber
 robbers
 robin
 robot
@@ -3788,7 +3680,6 @@ sadist
 sadness
 safeguard
 safeguards
-safeties
 safety
 saffron
 saga
@@ -3851,7 +3742,6 @@ scapegoats
 scatter
 schedule
 schedules
-schema
 schism
 scholar
 scholars
@@ -3859,8 +3749,6 @@ schoolbooks
 schoolboy
 schoolboys
 schoolers
-schoolgirl
-schoolgirls
 schoolhouse
 schooling
 schoolmate
@@ -3957,7 +3845,6 @@ sermons
 serpent
 serpents
 serum
-servant
 servants
 service
 serving
@@ -3965,7 +3852,6 @@ servings
 servo
 session
 sessions
-set-up
 setback
 setbacks
 setting
@@ -3989,7 +3875,6 @@ shaking
 shamrock
 shanty
 shaping
-sharecrop
 sharing
 sharpening
 sharpness
@@ -4027,7 +3912,6 @@ shoestring
 shoji
 shooter
 shooters
-shooting
 shootings
 shopper
 shopping
@@ -4111,7 +3995,6 @@ skimming
 skipper
 skippers
 skirmish
-skullcap
 skylight
 skylights
 skyline
@@ -4119,7 +4002,6 @@ skywave
 slanders
 slapstick
 slashes
-slaughter
 slaying
 sledding
 sleeping
@@ -4150,7 +4032,6 @@ snapshots
 snatches
 sneaker
 sneakers
-sniper
 sniping
 snoring
 snowball
@@ -4186,7 +4067,6 @@ soma
 someplace
 somewhere
 sonar
-songbook
 sonnet
 sonnets
 sonny
@@ -4199,13 +4079,11 @@ sorrows
 sortie
 soundness
 sources
-southpaw
 sovereign
 sovereigns
 sowing
 soybean
 soybeans
-space-time
 spacecraft
 spacer
 spacers
@@ -4337,7 +4215,6 @@ stirring
 stirrings
 stirrup
 stitches
-stockade
 stockings
 stockroom
 stoker
@@ -4370,7 +4247,6 @@ strippers
 striptease
 striving
 strivings
-stroking
 stronghold
 structure
 structures
@@ -4394,7 +4270,6 @@ subject
 subjects
 sublease
 subsoil
-subspace
 substance
 substrate
 substrates
@@ -4441,7 +4316,6 @@ surplus
 survey
 surveys
 suspect
-swallow
 swallows
 swami
 swatches
@@ -4452,7 +4326,6 @@ sweatshirt
 sweepstakes
 sweetheart
 sweethearts
-sweetness
 swelling
 swiftness
 swimmers
@@ -4556,7 +4429,6 @@ tension
 tensions
 tenure
 terrace
-terror
 terry
 testing
 tethers
@@ -4585,7 +4457,6 @@ thinning
 thirties
 thousands
 thousandths
-threesome
 threshold
 thrillers
 throbbing
@@ -4626,7 +4497,6 @@ title
 titles
 toddlers
 toffee
-toilet
 toilets
 token
 tokens
@@ -4647,11 +4517,9 @@ torment
 torpor
 torrent
 torrents
-torsion
 torso
 torsos
 tortoise
-torture
 tortures
 tosses
 tossing
@@ -4700,7 +4568,6 @@ transom
 transoms
 transport
 transports
-trapper
 trappings
 trauma
 travel
@@ -4763,7 +4630,6 @@ trumpet
 trundle
 trusses
 tuba
-tubers
 tubing
 tulip
 tulips
@@ -4783,7 +4649,6 @@ turbines
 turkey
 turkeys
 turmoil
-turn-out
 turning
 turnips
 turnoff
@@ -4831,7 +4696,6 @@ uptrend
 upturn
 urges
 urgings
-urine
 usage
 user
 users
@@ -4873,7 +4737,6 @@ vertex
 vessel
 vessels
 vestige
-vestments
 veteran
 veterans
 veto
@@ -4901,7 +4764,6 @@ vintner
 vinyl
 violet
 violets
-virgin
 virtue
 virtues
 virus
@@ -4974,7 +4836,6 @@ watchdog
 watchers
 watches
 watching
-watchmen
 water
 waters
 wattles
@@ -4984,7 +4845,6 @@ waver
 waving
 wayside
 weakness
-weapon
 weapons
 weasel
 weather
@@ -5000,7 +4860,6 @@ weeping
 weighting
 welcome
 welding
-welfare
 welter
 wetlands
 wetness
@@ -5010,7 +4869,6 @@ whiplash
 whirling
 whirlwind
 whiskers
-whiskey
 whisky
 whisper
 whispers
