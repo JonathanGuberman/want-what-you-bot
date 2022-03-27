@@ -2,6 +2,18 @@ from collections import defaultdict
 from enum import Enum, auto
 import random
 from syllabifications import get_syllables
+import uuid
+import subprocess
+import os
+
+from dotenv import load_dotenv
+import tweepy
+
+import logging
+
+logging.basicConfig(format='%(asctime)s %(levelname)-8s %(message)s', 
+  level=logging.INFO,
+  datefmt='%Y-%m-%d %H:%M:%S')
 
 class PartsOfSpeech(Enum):
   NOUN = auto()
@@ -158,7 +170,12 @@ def file_to_list(filename):
   with open(filename) as fp:
     return [line.strip() for line in fp]
 
+def clamp_length(message, length=280, suffix='…'):
+  suffix_length = len(suffix)
+  return (message[:length-suffix_length-1] + suffix) if len(message) > length else message
+
 if __name__ == "__main__":
+  logging.info("Loading wordlists")
   wordlists = defaultdict(list, {
     (PartsOfSpeech.NOUN, 1): file_to_list("./wordlists/NN-1.txt"),
     (PartsOfSpeech.NOUN, 2): file_to_list("./wordlists/NN-2.txt"),
@@ -166,11 +183,39 @@ if __name__ == "__main__":
     (PartsOfSpeech.ADJECTIVE, 1): file_to_list("./wordlists/JJ-1.txt"),
   } )
 
+  logging.info("Choosing words")
   word_choices = WordChoices(wordlists)
   # word_choices = RealWordChoices()
-  lyrics = random_lyrics(word_choices)
-  lyrics = lyrics if len(lyrics) <= 280 else (lyrics[:279] + '…')
-  print(random_lyrics(word_choices))
-  print()
-  with open("xml-out.xml", "w") as xml_out:
+  logging.info("Word choices: %s", word_choices)
+  lyrics = clamp_length(random_lyrics(word_choices))
+
+  logging.info("Lyrics: %s", lyrics)
+  filename = uuid.uuid4()
+
+  logging.info("Filename: %s", filename)
+  
+  logging.info("Writing XML")
+  with open(f"tmp/{filename}.xml", "w") as xml_out:
     xml_out.write(singing_xml(word_choices))
+
+  logging.info("Starting subprocess")
+  subprocess.call(["./make-wwyb.sh", str(filename)])
+  load_dotenv()
+
+  CONSUMER_KEY = os.getenv("CONSUMER_KEY")
+  CONSUMER_SECRET = os.getenv("CONSUMER_SECRET")
+  ACCESS_TOKEN = os.getenv("ACCESS_TOKEN")
+  ACCESS_TOKEN_SECRET = os.getenv("ACCESS_TOKEN_SECRET")
+
+  auth = tweepy.OAuth1UserHandler(
+   CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET
+  )  
+  api = tweepy.API(auth)
+
+  logging.info("Uploading media")
+  media = api.media_upload(f"./tmp/{filename}.mp4", media_category="tweet_video")
+  
+  logging.info("Updating status")
+  api.update_status(lyrics, media_ids=[media.media_id_string])
+
+  logging.info("Done!")
